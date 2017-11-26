@@ -9,7 +9,10 @@ body, html {
 	color: #808080;
 
 }
+/*//////////////////////////////////////////*/
 
+
+/*//////////////////////////////////////////////*/
 .navBar {
 	position: fixed;
 	z-index: 9999;
@@ -67,7 +70,7 @@ li:hover a{
 }
 
 .img3 {
-	background-image: url(images/food.jpeg);
+	background-image: url(images/food1.jpeg);
 	min-height: 450px;
 }
 
@@ -125,7 +128,7 @@ li:hover a{
 .title4 {
 	font-size: 150%;
 	color: #fff;
-	border-bottom: 3px solid #4d4d4d;
+	/*border-bottom: 3px solid #4d4d4d;*/
 	text-shadow: 3px 3px 10px #000;
 }
 
@@ -135,22 +138,22 @@ img {
 	width: 30%;
 	margin: 1.5%;
 	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
 }
 
 img:hover {
-	filter: none;
-}
+	filter: grayscale(0%);
+	-webkit-transition: all 2000ms;
 
+}
+/*
 .logos {
 	width: 10%;
 	filter: none;
+}*/
+
+.icons {
+	height: 10%;
+	width: 10%;
 	
-
-    
-}
-
-    
-	
-
-
-}
+}    
