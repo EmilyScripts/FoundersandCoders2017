@@ -138,24 +138,33 @@ li.navlist:hover a {
 
 .restaurantslides {
 	position: relative;
+
 }
 
 .restaurantpic {
-	
+	padding-left: 30px;
+	padding-bottom: 20px;
 	min-width: 300px;
 	float: right;
 	height: 30%;
 	width: 50%;
 }
 
-.restaurantlist {
-	float: left;
-	padding-left: 0;
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 2.5s;
+	animation-name: fade;
+	animation-duration: 2.5s;
 }
 
-.restaurantlist a {
-	text-decoration: underline;
-	color: #ddd;
+@-webkit-keyframes fade {
+	from {opacity: .1}
+	to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .1} 
+  to {opacity: 1}
 }
 
 button {
@@ -170,13 +179,13 @@ button {
 }
 
 .left {
-	right: 40px;
-	top: 10px;
+	right: 35px;
+	top: 5px;
 }
 
 .right {
-	right: 10px;
-	top: 10px;
+	right: 5px;
+	top: 5px;
 }
 
 button:hover {
@@ -185,6 +194,16 @@ button:hover {
 
 button:focus {
 	outline:0;
+}
+
+.restaurantlist {
+	float: left;
+	padding-left: 0;
+}
+
+.restaurantlist a {
+	text-decoration: underline;
+	color: #ddd;
 }
 
 .animals {
