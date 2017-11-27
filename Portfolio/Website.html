@@ -4,7 +4,7 @@
 	<title>My Website</title>
 	<link href="https://fonts.googleapis.com/css?family=Rajdhani:400,500" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="Website.css">
-	<!-- <script type="text/javascript" src='Website.js'></script> -->
+	<script type="text/javascript" src='Website.js'></script>
 	
 	
 </head>
@@ -12,12 +12,14 @@
 
 <nav role='navigation'>
 <ul class="navBar">
-	<li><a href="#four">Links</a></li>
-	<li><a href='#three'>Interests</a></li>
-	<li><a href='#two'>F&C</a></li>
-	<li><a href='#one'>Introduction</a></li>
-	<li><a href='#home'>Home</a></li>
+	
+	<li class="navlist"><a href="#four">Links</a></li>
+	<li class="navlist"><a href='#three'>Interests</a></li>
+	<li class="navlist"><a href='#two'>F&C</a></li>
+	<li class="navlist"><a href='#one'>Introduction</a></li>
+	<li class="navlist"><a href='#home'>Home</a></li>
 </ul>
+
 </nav>
 
 	<div class="img1" id='home'>
@@ -57,14 +59,38 @@
 		</div>
 	</div>
 
-	<section class="section section-navy" id="three">
-		<h2>Section Three</h2>
+	<section class="section-navy2" id="three">
+		<h2>Passions</h2>
+		
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua.
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
+		
+		<img class="restaurantslides" src="images/food.jpg">
+		<img class="restaurantslides" src="images/food2.jpg" style="display: none;">
+		<img class="restaurantslides" src="images/food3.jpg" style="display: none;">
+		<img class="restaurantslides" src="images/food4.jpg" style="display:none;">
+		<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+		<p>I love finding new restaurants to visit, here are some of my favourites around london and Brighton, as well as the links to their websites:
+			<ul class="restaurantlist">
+				<li>Flat Iron</li>
+				<li>Greens Steakhouse</li>
+				<li>Hare and Tortoise</li>
+				<li>Moshimo</li>
+			</ul>
+		</p>
+
+
+
 	</section>
 
-	<section class=" sectionanimals">
+	<section class="sectionanimals">
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -83,6 +109,9 @@
 
 	<section class="section section-navy" id="four">
 		<p>Visit my GitHub, CodeWars and Free Code Camp pages here:</p>
+
+		<hr class='style2'>
+
 		<a href="https://github.com/EmilyScripts"><img class="icons" src="images/githubicon.png"></a>
 		<a href="https://www.codewars.com/users/EmilyScripts"><img class="icons" src="images/codewarsicon.png"></a>
 		<a href="https://www.freecodecamp.org/emilyscripts"><img class="icons" src="images/freecodecampicon.png"></a>

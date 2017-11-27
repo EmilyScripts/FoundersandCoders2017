@@ -24,16 +24,11 @@ body, html {
 	overflow: hidden;
 	border: 1px solid #696969;
 	background-color: #c0c0c0;
-	/*display: block;
-*/}
+	
+}
 
-li {
-	/*display: block;*/
-	/*padding: 6px;
-	padding-left: 10px;
-	padding-right: 10px;*/
+li.navlist  {
 	float: right;
-	/*text-align: 14px 16px;*/
 }
 
 li a {
@@ -46,7 +41,7 @@ li a {
 	color: #4d4d4d;
 }
 
-li:hover a{
+li:hover a {
 	background-color: #d3d3d3;
 }
 
@@ -80,8 +75,17 @@ li:hover a{
 }
 
 .section-navy {
+	/*overflow: auto;*/
 	background-color: #282e34;
 	color: #ddd;
+}
+
+.section-navy2 {
+	overflow: auto;
+	background-color: #282e34;
+	color: #ddd;
+	text-align: left;
+	padding: 50px 80px;
 }
 
 .section-white {
@@ -132,28 +136,42 @@ li:hover a{
 	text-shadow: 3px 3px 10px #000;
 }
 
+.restaurantslides {
+	float: right;
+	filter: none;
+	height: 30%;
+	width: 50%;
+	
+}
+
+.restaurantlist {
+	float: left;
+
+}	
+
 img {
-	float: both;
+	float: none;
 	height: 30%;
 	width: 30%;
-	margin: 1.5%;
+	margin: 1.2%;
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
 }
 
 img:hover {
 	filter: grayscale(0%);
-	-webkit-transition: all 2000ms;
+	-webkit-transition: all 1500ms;
 
 }
-/*
-.logos {
-	width: 10%;
-	filter: none;
-}*/
+
+.style2 hr {
+
+    height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #fff inset;
+}
 
 .icons {
 	height: 5%;
 	width: 5%;
-	
 }    
