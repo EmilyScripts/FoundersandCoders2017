@@ -142,7 +142,7 @@ li.navlist:hover a {
 
 .restaurantpic {
 	
-	min-width: 500px;
+	min-width: 300px;
 	float: right;
 	height: 30%;
 	width: 50%;
@@ -150,6 +150,7 @@ li.navlist:hover a {
 
 .restaurantlist {
 	float: left;
+	padding-left: 0;
 }
 
 .restaurantlist a {
