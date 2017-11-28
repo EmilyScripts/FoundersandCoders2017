@@ -71,7 +71,7 @@ li.navlist:hover a {
 
 .section {
 	text-align: center;
-	padding: 50px 80px;
+	padding: 30px 80px;
 }
 
 .section-navy {
@@ -85,7 +85,7 @@ li.navlist:hover a {
 	background-color: #282e34;
 	color: #ddd;
 	text-align: left;
-	padding: 50px 80px;
+	padding: 30px 80px;
 }
 
 .section-white {
@@ -229,8 +229,8 @@ button:focus {
 }
 
 .icons {
-	height: 5%;
-	width: 5%;
+	height: 7%;
+	width: 7%;
 }    
 
 @media only screen and (max-width: 768px) {
@@ -239,10 +239,15 @@ button:focus {
 	}
 
 	.restaurantpic, .animals {
-		min-width: 300px;
+		min-width: 320px;
 	}
 
 	.sectionanimals {
 		text-align: left;
 	}
+
+	.icons {
+		min-width: 20px;
+	}
+
 }
