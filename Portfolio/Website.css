@@ -106,7 +106,7 @@ li.navlist:hover a {
 	width: 100%;
 	text-align: center;
 	color: #000;
-	font-size: 27px;
+	font-size: 3vw;
 	letter-spacing: 8px;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -144,7 +144,7 @@ li.navlist:hover a {
 .restaurantpic {
 	padding-left: 30px;
 	padding-bottom: 20px;
-	min-width: 300px;
+	max-width: 600px;
 	float: right;
 	height: 30%;
 	width: 50%;
