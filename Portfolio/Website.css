@@ -234,11 +234,15 @@ button:focus {
 }    
 
 @media only screen and (max-width: 768px) {
-	.section {
+	.section, .sectionanimals, .restaurantpic, .animals {
 		padding: 7px 10px;
 	}
 
 	.restaurantpic, .animals {
-		min-width: 200px;
+		min-width: 295px;
+	}
+
+	.sectionanimals {
+		text-align: left;
 	}
 }
