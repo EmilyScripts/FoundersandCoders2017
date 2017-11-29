@@ -7,12 +7,10 @@ body, html {
 	font-weight: 400;
 	line-height: 1.8em;
 	color: #808080;
-
 }
-/*//////////////////////////////////////////*/
 
+/*NavigationBar///////////////////////////////////////////*/
 
-/*//////////////////////////////////////////////*/
 .navBar {
 	position: fixed;
 	z-index: 9999;
@@ -24,10 +22,9 @@ body, html {
 	overflow: hidden;
 	border: 1px solid #696969;
 	background-color: #c0c0c0;
-	
 }
 
-li.navlist  {
+li.navlist {
 	float: right;
 }
 
@@ -39,11 +36,14 @@ li.navlist a {
 	text-align: 14px 16px;
 	text-decoration: none;
 	color: #4d4d4d;
+
 }
 
 li.navlist:hover a {
 	background-color: #d3d3d3;
 }
+
+/*Background images and code for parallax//////////////////*/
 
 .img1, .img2, .img3 {
 	position: relative;
@@ -69,13 +69,14 @@ li.navlist:hover a {
 	min-height: 450px;
 }
 
+/*Sections to breakup parallax////////////////////////////////*/
+
 .section {
 	text-align: center;
 	padding: 30px 80px;
 }
 
 .section-navy {
-	/*overflow: auto;*/
 	background-color: #282e34;
 	color: #ddd;
 }
@@ -100,6 +101,8 @@ li.navlist:hover a {
 	background-image: url(images/tissue.png);
 }
 
+/*Main Titles////////////////////////////////////////////////*/
+
 .titles {
 	position: absolute;
 	top: 50%;
@@ -110,7 +113,6 @@ li.navlist:hover a {
 	letter-spacing: 8px;
 	text-transform: uppercase;
 	font-weight: bold;
-
 }
 
 .title1 {
@@ -132,13 +134,13 @@ li.navlist:hover a {
 .title4 {
 	font-size: 150%;
 	color: #fff;
-	/*border-bottom: 3px solid #4d4d4d;*/
 	text-shadow: 3px 3px 10px #000;
 }
 
-.restaurantslides {
-	position: relative;
+/*Restaurant pictures, slideshow, links and text/////////////*/
 
+.restaurantdiv {
+	position: relative;
 }
 
 .restaurantpic {
@@ -174,7 +176,7 @@ button {
 	border-radius: 8px;
 	-webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    background-color: #696969;
+    background-color: transparent;
     color: white;
     font-size: 18px;
 }
@@ -207,6 +209,8 @@ button:focus {
 	color: #ddd;
 }
 
+/*Animal section/////////////////////////////////////////////*/
+
 .animals {
 	float: none;
 	height: 30%;
@@ -219,39 +223,38 @@ button:focus {
 .animals:hover {
 	filter: grayscale(0%);
 	-webkit-transition: all 1500ms;
-
 }
 
-.style2 hr {
-
-    height: 10px;
-	border: 0;
-	box-shadow: 0 10px 10px -10px #fff inset;
-}
+/*Logos/Icons////////////////////////////////////////////////*/
 
 .iconstext {
 	font-size: 22px;
 	font-weight: bold;
 }
 
+.style2 hr {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #fff inset;
+}
+
 .icons {
 	height: 7%;
 	width: 7%;
 	padding-top: 20px;
-	padding-right: 5px;
+	padding-right: 10px;
 } 
 
 .icons:hover {
-	opacity: 0.7;
-}   
+	filter: sepia(1) hue-rotate(132deg) saturate(999%);
+}
+   
+
+/*Mobile CSS////////////////////////////////////////////////*/
 
 @media only screen and (max-width: 480px) {
 	.section, .sectionanimals, .restaurantpic, .animals {
 		padding: 7px 10px;
-	}
-
-	.animals {
-		margin: 0;
 	}
 
 	.restaurantpic, .animals {
@@ -261,5 +264,4 @@ button:focus {
 	.icons {
 		min-width: 40px;
 	}
-
 }
