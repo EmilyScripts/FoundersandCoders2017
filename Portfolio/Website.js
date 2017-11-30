@@ -4,11 +4,9 @@ showDivs(slideIndex);
 function plusDivs(n) {
     showDivs(slideIndex += n);
 }
-
 function currentSlide(n) {
 	show
 }
-
 function showDivs(n) {
     var i;
     var x = document.getElementsByClassName("restaurantpic");
@@ -19,5 +17,3 @@ function showDivs(n) {
     }
     x[slideIndex-1].style.display = "block"; 
 }
-
-

@@ -247,9 +247,11 @@ button:focus {
 
 .icons:hover {
 	filter: sepia(1) hue-rotate(132deg) saturate(999%);
+	-ms-transform: scale(1.1, 1.1);
+	-webkit-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
 }
    
-
 /*Mobile CSS////////////////////////////////////////////////*/
 
 @media only screen and (max-width: 480px) {
