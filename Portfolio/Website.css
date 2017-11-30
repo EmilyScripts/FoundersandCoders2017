@@ -262,7 +262,7 @@ button:focus {
 		padding: 10px 15px;
 	}
 	.restaurantpic, .animals {
-		min-width: 450px;
+		min-width: 500px;
 	}
 	.icons {
 		min-width: 70px;
