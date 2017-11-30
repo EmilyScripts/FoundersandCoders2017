@@ -225,6 +225,8 @@ button:focus {
 	-webkit-transition: all 1500ms;
 }
 
+
+
 /*Logos/Icons////////////////////////////////////////////////*/
 
 .iconstext {
@@ -267,6 +269,14 @@ button:focus {
 	.icons {
 		min-width: 70px;
 	}
+	.left {
+	right: 45px;
+	top: 15px;
+	}
+	.right {
+	right: 20px;
+	top: 15px;
+	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -281,5 +291,13 @@ button:focus {
 	}
 	.icons {
 		min-width: 40px;
+	}
+	.left {
+	right: 40px;
+	top: 10px;
+	}
+	.right {
+	right: 15px;
+	top: 10px;
 	}
 }
