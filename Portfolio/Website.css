@@ -254,7 +254,26 @@ button:focus {
    
 /*Mobile CSS////////////////////////////////////////////////*/
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 800px) {
+	body, html {
+		font-size: 3.2vw;
+	}
+	.section, .sectionanimals, .restaurantpic, .animals {
+		padding: 10px 15px;
+	}
+	.restaurantpic, .animals {
+		min-width: 450px;
+	}
+
+	.icons {
+		min-width: 70px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	body, html {
+		font-size: 3vw;
+	}
 	.section, .sectionanimals, .restaurantpic, .animals {
 		padding: 7px 10px;
 	}
