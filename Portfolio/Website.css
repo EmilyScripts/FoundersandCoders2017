@@ -264,7 +264,6 @@ button:focus {
 	.restaurantpic, .animals {
 		min-width: 450px;
 	}
-
 	.icons {
 		min-width: 70px;
 	}
@@ -277,11 +276,9 @@ button:focus {
 	.section, .sectionanimals, .restaurantpic, .animals {
 		padding: 7px 10px;
 	}
-
 	.restaurantpic, .animals {
 		min-width: 320px;
 	}
-
 	.icons {
 		min-width: 40px;
 	}
